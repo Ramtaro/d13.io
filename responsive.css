@@ -1,0 +1,149 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+
+/*HEADER*/
+
+  .header-left{
+    margin-left: 15px;
+  }
+
+  .header-right{
+margin-right: 15px;
+  }
+
+.header-left button.icon-bar{
+ font-size: 18pt;
+}
+
+.pencarian {
+  width:200px;
+  border-radius: 10px;
+  }
+
+.pencarian button.icon{
+  height:30px;
+  width:40px;
+  font-size:10pt;
+}
+
+.pencarian:hover button.icon {
+  margin-left: -115px;
+}
+
+.pencarian:active button.icon, .pencarian:focus button.icon{
+  margin-left: -115px;
+  }
+/*AKHIR HEADER*/
+
+/*FOOTER*/
+
+footer{
+  height:900px;
+
+}
+
+.footer-section{
+  float:none;
+  text-align: center;
+  vertical-align: middle;
+  display: block;
+  margin: 0 auto;
+  padding-top: 45px;
+}
+
+h3{
+border-bottom: 0.2px solid #AF0404;  
+border-top: 1px solid white;
+}
+
+.about h3{
+border-top: :0;
+}
+
+.about {
+  max-width: 75%
+
+}
+.about p {
+  margin-top: 20px;
+}
+
+.links {
+  max-width: 75%
+}
+
+.link li{
+  margin-top: 20px;
+  font-size:20px;
+}
+
+.link ul{
+  list-style: none;
+}
+
+
+.contact-us {
+  max-width: 75%
+}
+
+.footer-input {
+  margin-top: 20px;
+  width:250px;
+  opacity:0.95;
+  }
+
+.footer-text {
+  width:250px;
+  opacity:0.95;
+}
+
+.footer-input:active, .footer-input:focus {
+  opacity:1;
+}
+
+.footer-text:active, .footer-text:focus{
+  opacity:1;
+}
+/*AKHIR FOOTER*/
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+/*HEADER*/
+
+.header-left button.icon-bar{
+ font-size: 15pt;
+ margin-left: -20px;
+}
+
+ .header-right{
+margin-right: 5px;
+  }
+
+.header-left button.icon-bar{
+ font-size: 18pt;
+}
+
+.pencarian {
+  width:150px;
+  border-radius: 10px;
+  }
+
+.pencarian button.icon{
+  height:30px;
+  width:40px;
+  font-size:10pt;
+}
+
+.pencarian:hover button.icon {
+  margin-left: -168px;
+}
+
+.pencarian:active button.icon, .pencarian:focus button.icon{
+  margin-left: -168px;
+  }
+/*AKHIR HEADER*/
+
+
+}
